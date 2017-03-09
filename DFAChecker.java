@@ -30,7 +30,7 @@ public class DFAChecker extends Frame implements ActionListener
      * This will also prompt the user to enter a binary string of any length greater than 1 and run it appropriately.
      *    
      */
-    public static void main(String args[])
+    public static void main()
     {
         DFAChecker DFAC = new DFAChecker();
         DFAC.createGUI();
